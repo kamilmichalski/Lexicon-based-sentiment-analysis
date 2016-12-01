@@ -5,11 +5,11 @@ from myclasses import Token, Document, plutchik
 
 def get_data(raw_statement_id):
 
-    db_name = "ams_article"
-    db_user = "postgres"
-    db_password = ""
-    db_host = "localhost"
-    db_port = 5432
+    db_name = "xxxxx"
+    db_user = "xxxxx"
+    db_password = "xxxxx"
+    db_host = "xxxxx"
+    db_port = 1137
 
     conn = psycopg2.connect(dbname=db_name, user=db_user, password=db_password, host=db_host, port=db_port)
     cur = conn.cursor()
